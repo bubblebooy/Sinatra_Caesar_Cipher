@@ -1,0 +1,24 @@
+
+
+<html>
+  <head>
+    <style>
+      body {
+        background: white ;
+      }
+    </style>
+  </head>
+<body>
+  <h1> Caesar Cipher </h1>
+    <form>
+      Plain Text:<br>
+      <input type='text' name='plain' value="<%= plain %>" ><br>
+      Offset:<br>
+      <input type='number' name='offset' value=<%= offset %> ><br><br>
+      <input type='submit' value='Encrypt' >
+    </form>
+    <p>
+    Cipher Text: <%= cipher %>
+    </p>
+  </body>
+</html>
